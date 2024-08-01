@@ -1,0 +1,53 @@
+.logout-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.logout-box {
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.logout-box h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #3498db;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.confirm-btn {
+  background-color: #e74c3c;
+}
+
+.confirm-btn:hover {
+  background-color: #c0392b;
+}
+
+.cancel-btn {
+  background-color: #95a5a6;
+}
+
+.cancel-btn:hover {
+  background-color: #7f8c8d;
+}

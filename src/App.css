@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+}
+
+.main-content {
+  flex-grow: 1;
+  margin-left: 250px; /* Adjust margin to match sidebar width */
+  padding: 20px;
+}

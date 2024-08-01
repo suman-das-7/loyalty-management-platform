@@ -1,0 +1,79 @@
+.transaction-form {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.search-bar {
+  margin: 20px auto;
+  display: block;
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.members-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.members-table th,
+.members-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.members-table th {
+  background-color: #f2f2f2;
+}
+
+/* .add-member-form {
+    margin: 20px auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  } */
+
+/* .add-member-form input {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .add-member-form button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+  } */
+
+.add-member-form button:hover {
+  background-color: #3498db;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.edit-icon:hover,
+.delete-icon:hover {
+  color: #007bff;
+}
+
+/* .success-message {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    margin: 20px 0;
+  } */
